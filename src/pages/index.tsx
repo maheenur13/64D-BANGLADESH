@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { MetaData } from '@components/organisms/Includes';
 import { MainLayout } from '@components/templates';
 import { productApi } from '@libs/api/product';
@@ -27,10 +28,7 @@ const Home: NextPage<any> = () => {
 			/>
 
 			<MainLayout>
-				<h1>Main Layout</h1>
-				{
-					data?.length > 0 ? <h1>Yes I am data</h1> : <h1>Loading</h1>
-				}
+
 
 			</MainLayout>
 
