@@ -5,7 +5,6 @@ import { productApi } from '@libs/api/product';
 import type { NextPage } from 'next';
 import { useEffect, useState } from 'react';
 const Home: NextPage<any> = () => {
-
 	const [data, setAllData] = useState<any>([]);
 	useEffect(() => {
 		(async () => {
@@ -15,7 +14,6 @@ const Home: NextPage<any> = () => {
 			}
 		})();
 	}, []);
-
 
 	return (
 		<div>
@@ -28,8 +26,7 @@ const Home: NextPage<any> = () => {
 			/>
 
 			<MainLayout>
-
-
+				<p>Hello</p>
 			</MainLayout>
 
 			<footer></footer>
