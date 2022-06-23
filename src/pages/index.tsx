@@ -14,7 +14,7 @@ const Home: NextPage<any> = () => {
 			}
 		})();
 	}, []);
-	console.log(data);
+	console.log('data', data);
 
 	return (
 		<div>
